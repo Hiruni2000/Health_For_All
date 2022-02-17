@@ -1,8 +1,8 @@
 
-{
+*{
 	margin:0;
 	padding:0;
-	box-sizing: border-box;
+	box-sizing:border-box;
 	font-family:Arial;
 }
 
@@ -10,11 +10,11 @@ body{
 	min-height:100vh;
 }
 
-/navigation bar/
+/*navigation bar*/
 .navbar{
 	width: 100%;
-	color: #fff;
-	background-color: #00BFFF;
+	color: rgb(30, 206, 206);
+	background-color: #0fc1c7;
 	height:70px;
 }
 
@@ -47,7 +47,7 @@ nav ul li a{
 	margin:0px 18px;
 }
 
-/login button for nav bar/
+/*login button for nav bar*/
 .navbar .button a{
 	background-color: #fff;
 	color:#00BFFF;
@@ -57,7 +57,7 @@ nav ul li a{
 	text-decoration:none;
 }
 
-/footer/
+/*footer*/
 .footer{
 	padding:25px 0px;
 	background-color:#00BFFF;
@@ -118,7 +118,7 @@ nav ul li a{
     align-items: center;
 }
 
-/background image/
+/*background image*/
 .hero-image{
 	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("https://images.unsplash.com/photo-1574680096145-d05b474e2155?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Zml0bmVzc3xlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
 	background-position:center;
@@ -136,14 +136,14 @@ nav ul li a{
 	position:absolute;
 }
 
-/heading text for bg image/
+/*heading text for bg image*/
 .hero-text h1{
 	line-height:80px;
 	font-size: 50px;
 	font-weight:500;
 }
 
-/para text for bg image/
+/*para text for bg image*/
 .hero-text p{
 	line-height:40px;
 	font-size:15px;
