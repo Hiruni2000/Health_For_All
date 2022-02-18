@@ -1,8 +1,7 @@
-
 *{
 	margin:0;
 	padding:0;
-	box-sizing:border-box;
+	box-sizing: border-box;
 	font-family:Arial;
 }
 
@@ -158,3 +157,4 @@ nav ul li a{
     background-color: #00BFFF;
     padding: 10px;
 }
+
