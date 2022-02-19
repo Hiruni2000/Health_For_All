@@ -12,9 +12,9 @@ body{
 /*navigation bar*/
 .navbar{
 	width: 100%;
-	color: rgb(1, 9, 10);
-	background-color: rgb(255, 255, 255);
-	height: 100px;px;
+	color: #fff;
+	background-color: #00BFFF;
+	height:70px;
 }
 
 .navbar .container{
@@ -40,16 +40,16 @@ nav ul li{
 }
 
 nav ul li a{
-	color:rgb(1, 14, 11);
+	color:#fff;
 	text-decoration:none;
-	font-size:20px;
+	font-size:17px;
 	margin:0px 18px;
 }
 
 /*login button for nav bar*/
 .navbar .button a{
-	background-color: rgb(27, 163, 152);
-	color:#e8f5fa;
+	background-color: #fff;
+	color:#00BFFF;
 	padding: 6px 12px;
 	border-radius:5px;
 	font-size:17px;
@@ -59,8 +59,7 @@ nav ul li a{
 /*footer*/
 .footer{
 	padding:25px 0px;
-	background-color:rgb(53, 61, 61)
-	;
+	background-color:#00BFFF;
 	position:absolute;
 	width:100%;
 	
@@ -120,13 +119,14 @@ nav ul li a{
 
 /*background image*/
 .hero-image{
-	background-image:url("../../Images/uyyu.jpg");
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("https://images.unsplash.com/photo-1574680096145-d05b474e2155?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Zml0bmVzc3xlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+	background-position:center;
 	background-repeat: no-repeat;
 	background-size:cover;
-	padding-bottom:9rem;
-	padding-top: 13rem;
-	background-position-y: -250px;
-	
+	height:300px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
 }
 
 .hero-text{
