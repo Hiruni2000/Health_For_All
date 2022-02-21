@@ -258,8 +258,8 @@ nav ul li a{
 	background-position-y: -10px ;
 
 }
-<<<<<<< HEAD
-=======
+
+
 *{
 	margin:1;
 	padding:1;
@@ -394,20 +394,8 @@ h2{
     align-items: center;
 }
 
-/*background image*/
-.hero-image{
-	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../IMG/homepg.jpg");
-	background-position:center;
-	background-repeat: no-repeat;
-	background-size:cover;
-	height:600px;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-}
-
 .hero-text{
-	color: #fff;
+	color: rgb(0, 0, 0);
 	text-align: center;
 	position:absolute;
 }
@@ -434,5 +422,4 @@ h2{
     background-color: NONE;
     padding: 10px;
 }
->>>>>>> f844e2198d26b5b382b9e753dc899de554f496d0
 
