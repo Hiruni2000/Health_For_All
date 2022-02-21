@@ -1,8 +1,8 @@
 *{
-	margin:0;
-	padding:0;
+	margin:1;
+	padding:1;
 	box-sizing: border-box;
-	font-family:Arial;
+	font-family:Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -12,8 +12,8 @@ body{
 /*navigation bar*/
 .navbar{
 	width: 100%;
-	color: #fff;
-	background-color: #00BFFF;
+	color:#000;
+	background-color: #fff;
 	height:70px;
 }
 
@@ -40,7 +40,7 @@ nav ul li{
 }
 
 nav ul li a{
-	color:#fff;
+	color: #000;
 	text-decoration:none;
 	font-size:17px;
 	margin:0px 18px;
@@ -49,7 +49,7 @@ nav ul li a{
 /*login button for nav bar*/
 .navbar .button a{
 	background-color: #fff;
-	color:#00BFFF;
+	color:#177074;
 	padding: 6px 12px;
 	border-radius:5px;
 	font-size:17px;
@@ -59,7 +59,7 @@ nav ul li a{
 /*footer*/
 .footer{
 	padding:25px 0px;
-	background-color:#00BFFF;
+	background-color:#575758;
 	position:absolute;
 	width:100%;
 	
@@ -69,7 +69,7 @@ nav ul li a{
 .footer .social{
 	text-align:center; 
 	padding-bottom:15px;
-	color:black;
+	color: #000;
 }
 
 .footer .social a{
@@ -91,9 +91,9 @@ nav ul li a{
 }
 
 .footer ul{
-	margin-top:0;
+	margin-top:4;
 	margin-right:10px;
-	padding:0;
+	padding:4;
 	list-style:none;
 	font-size:16px;
 	line-height:20px;
@@ -106,7 +106,7 @@ nav ul li a{
 }
 
 .footer ul li a{
-	color:white;
+	color:#000;
 	text-decoration:none;
 	--opacity:0.5;
 }
@@ -119,18 +119,18 @@ nav ul li a{
 
 /*background image*/
 .hero-image{
-	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("https://images.unsplash.com/photo-1574680096145-d05b474e2155?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Zml0bmVzc3xlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../IMG/uyyu.jpg");
 	background-position:center;
 	background-repeat: no-repeat;
 	background-size:cover;
-	height:300px;
+	height:600px;
 	display:flex;
 	justify-content:center;
 	align-items:center;
 }
 
 .hero-text{
-	color: #fff;
+	color: #000;
 	text-align: center;
 	position:absolute;
 }
@@ -153,8 +153,8 @@ nav ul li a{
 .hero-btn {
     
     text-decoration: none;
-    color: #fff;
-    background-color: #00BFFF;
+    color: #f6fafc;
+    background-color: NONE;
     padding: 10px;
 }
 
