@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<style>
+			.navbar{
+				width:100%;
+				height:18rem;
+				background-color: #e91e63;
+			}
+			.contact{
+	position: relative;
+	min-height: 100vh;
+	padding: 50px 100px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-size: cover;
+	
+} 
+
+.container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+	
+}
+
+.container .contactInfo{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		
+		
+}
+.container .contactInfo .box{
+	position: relative;
+	padding: 20px 0;
+	display: flex;
+}
+/*----------------Icons---------------*/
+.container .contactInfo .box .icon{
+	min-width: 60px;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+}
+.container .contactInfo .box .text{
+	display: flex;
+	margin-left: 20px;
+	margin-top: -120px;
+	margin-bottom:0px;
+	font-size: 25px;
+	flex-direction: column;
+	font-weight: 300;
+	
+}
+.container .contactInfo .box .text h3{
+	font-weight: 500;
+}
+
+
+.fa-phone{
+	margin-top: -250px;
+	margin-left: 200px;
+}
+.fa-envelope-o{
+	margin-top: -350px;
+	margin-left:300px;
+}
+
+
+/*--------------------Contact Us Form----------------------------*/
+.contactForm{
+	width: 50%;
+	border-style: outset;
+	padding: 50px;
+	background-color:#efeff5;
+	
+}
+.contactForm h2{
+	font-size: 30px;
+	font-weight: 500;
+	
+}
+.contactForm .inputBox{
+	position: relative;
+	width: 100%;
+	margin-top: 20px;
+}
+.contactForm .inputBox input,
+ .contactForm .inputBox textarea{
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+}
+.contactForm .inputBox span{
+	position: absolute;
+	left: 0;
+	padding: 2px 0;
+	margin: 20px 20px;
+	pointer-events: none;
+	transition: 0.5s;
+	color: #666;
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+ .contactForm .inputBox textarea:focus ~ span,
+ .contactForm .inputBox textarea:valid ~ span
+ {
+	color: #e91e63;
+	font-size: 12px;
+	transform: translateY(-35px);
+}
+
+.contactForm .inputBox input[type="submit"]{
+	width: 100px;
+	background: #000000;
+	color: #fff;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 18px;
+	
+}
+
+/*------Start Services---------------*/
+.services{
+	min-height: 100vh;
+	text-align: center;
+	padding: 2% 6%;
+}
+.services h1{
+ font-size: 3.8rem;
+	padding: 0.5rem;
+	display: inline-block;
+	color: yellowgreen;
+	border-bottom: .3rem solid yellowgreen;
+	margin-bottom: 1.8rem;
+}
+.services .container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-wrap: wrap;
+}
+.services .container .box{
+	width: 31rem;
+	height: 31rem;
+	margin: .5rem;
+	position: relative;
+	overflow: hidden;
+}
+.services .container .box img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.services .container .box .info{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0);
+	transform-origin: bottom;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.services .container .box:hover .info{
+	transform: translate(-50%, -50%) scale(1);
+}
+.services .container .box .info h3{
+	font-size: 3rem;
+	color: yellowgreen;
+	margin-bottom: 1.2rem;
+}
+.services .container .box .info p{
+	line-height: 2;
+	color: #fff;
+	font-size: 1.1rem;
+	padding: 0 1rem;
+	margin-bottom: 1.2rem;
+}
+
+
+		</style>
+	<link rel = "stylesheet" href="="Include/css/contact style.css">
+	<!--adding social icons-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Good Health For All</title>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+	rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	</head>
+	
+	<body>
+	
+		<!--creating navigation bar-->
+		<div class="navbar">
+			<div class="container">
+				<div class="logo">
+				
+					<h1>Good Health For All</h1>
+					<br/>
+					</div>
+						<nav>
+							<ul>
+								<li><a href = "#"> Home </a></li>
+								<li><a href = "#">About Us </a></li>
+								<li><a href = "#">Service </a></li>
+								
+								<li><a href = "#">Donation</a></li>
+								<li><a href = "#">Login </a></li>		
+							</ul>	
+				<div class="button">
+				
+								<a href="">Contact Us</a>
+	
+				</div>
+				</nav>
+	
+	<!--creating background image-->
+		<div class="hero-image">
+			<div class="hero-text">
+				<h1> Contact Us</h1>
+				<p>Contcat us for more information<br> 
+				Fill in the form below,
+				and we’ll get back to you within 24 hours</p>
+				<h1>Best Care & Better Doctor</h1>
+			</div>
+		</div>
+	
+	<br>
+	</div>
+</div>
+		<!--add data here-->
+		<!--add data here-->
+		<!--add data here-->
+		<section class="contact">
+			<div class="container">
+			<!--------------------Contact Us Form---------------------------->
+				<div class="contactForm">
+					<form action="submitcontactform.php" method="POST">
+						<h2>CONTACT US</h2>
+						<div class="inputBox">
+							<input type="text" name="" required="required">
+							<span>Full name</span>
+						</div>
+						<div class="inputBox">
+							<input type="text" name="" required="required">
+							<span>Email</span>
+						</div>
+						<div class="inputBox">
+							<textarea required="required"></textarea>
+							<span>Comment</span>
+						</div>
+						<div class="inputBox">
+							<input type="submit" name="" value="Submit">
+							
+						</div>
+					</form>
+				</div>
+				<!-------------------Contact Information--------------------------------------->
+				<div class="contactInfo">
+					<div class="box">
+						<div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+							<div class="text">
+								<h3>TELEPHONE</h3>
+								<p> 011545795521 <br> 011254478478</p>
+							</div>
+							<br><br><br><br><br><br><br><br><br><br><br>
+					</div>
+					<div class="box">
+						<div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+							<div class="text">
+								<h3>EMAIL</h3>
+								<p>ransararathnayaka85@gmail.com</p>
+							</div>  
+					</div>
+				</div>
+			</div>
+			
+		</section
+		
+		<!--------Start Services------------>
+		<section class="services">
+			<h1>Our Services</h1>
+				<div class="container">
+					<div class="box">
+						<img src="images/do.jpg">
+							<div class="info">
+								<h3>Emergency Care<h3>
+								<p>Lorem ipsum dolor sit amet,consectetur adipiscing elit,sed do eiusmod tempor incididunt at labore</p>
+								
+							</div>
+					</div>
+					<div class="box">
+						<img src="images/do.jpg">
+							<div class="info">
+								<h3>Qualified Doctors<h3>
+								<p>Lorem ipsum dolor sit amet,consectetur adipiscing elit,sed do eiusmod tempor incididunt at labore</p>
+							</div>
+					</div>
+					<div class="box">
+						<img src="images/do.jpg">
+							<div class="info">
+								<h3>24/7 Hours Service<h3>
+								<p>Lorem ipsum dolor sit amet,consectetur adipiscing elit,sed do eiusmod tempor incididunt at labore</p>
+								
+							</div>
+					</div>
+				</div>
+		</section>
+	
+
+	<!--creating footer-->
+		<section class = "footer">
+			
+				<div class="social">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>	
+					<a href="#"><i class="fa fa-youtube"></i></a>	
+		
+			</div>
+		
+			<ul class = "list">
+				<li>
+					<a href = "#">Home</a>
+				</li>
+				<li>
+					<a href = "#">About Us</a>	
+				</li>
+				<li>
+					<a href = "#">Programs</a>
+				</li>
+				<li>
+					<a href = "#">Reviews</a>
+				</li>
+				<li>
+					<a href = "#">Contact Us</a>
+				</li>
+				<li>
+					<a href = "#">Login</a>
+				</li>
+			</ul>
+	</section>
+	</body>
+
+</html>
