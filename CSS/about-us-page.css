@@ -118,3 +118,177 @@
 .Touch h4{
     text-align: center;
 }
+*{
+	margin:1;
+	padding:1;
+	box-sizing: border-box;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+	min-height:100vh;
+}
+.logo{
+
+
+	font-family:'Courier New', Courier, monospace;
+}
+
+/*navigation bar*/
+.navbar{
+	width: 100%;
+	color:#000;
+	background-color: #fff;
+	height:70px;
+}
+
+.navbar .container{
+	max-width: 1200px;
+	margin: 0px auto;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 70px;
+}
+
+nav{
+	display:flex;
+}
+
+nav ul{
+	display: flex;
+	margin-right:10px;
+}
+
+nav ul li{
+	list-style:none;
+}
+
+nav ul li a{
+	color: #000;
+	text-decoration:none;
+	font-size:17px;
+	margin:0px 18px;
+}
+
+/*login button for nav bar*/
+.navbar .button a{
+	background-color: #fff;
+	color:#177074;
+	padding: 6px 12px;
+	border-radius:5px;
+	font-size:17px;
+	text-decoration:none;
+}
+
+/*footer*/
+.footer{
+	padding:25px 0px;
+	background-color:#575758;
+	position:absolute;
+	width:100%;
+	
+	
+}
+
+.footer .social{
+	text-align:center; 
+	padding-bottom:15px;
+	color: #000;
+}
+
+.footer .social a{
+	font-size:24px;
+	color:inherit;
+	border: 1px solid ;
+	width:40px;
+	height:40px;
+	line-height:38px;
+	display: inline-block;
+	text-align:center;
+	border-radius:50%;
+	margin:0 10px;
+	opacity:0.75;
+}
+
+.footer .social a:hover{
+	opacity:0.5; 
+}
+
+.footer ul{
+	margin-top:4;
+	margin-right:10px;
+	padding:4;
+	list-style:none;
+	font-size:16px;
+	line-height:20px;
+	margin-bottom:0;
+	text-align:center;
+}
+.footer ul li{
+	display:inline-block;
+	padding:0px 18px;
+}
+
+.footer ul li a{
+	color:#000;
+	text-decoration:none;
+	--opacity:0.5;
+}
+h1{
+	font-size: 30px;
+	font-style: Bahnschrift Light SemiCondensed;
+}
+h3{
+	font-size: 20px;
+}
+h2{
+	font-size: 40px;
+}
+
+.social a{
+    padding-top: 7px;
+    text-align: center;
+    align-items: center;
+}
+
+/*background image*/
+.hero-image{
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../IMG/homepg.jpg");
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	height:600px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.hero-text{
+	color: #fff;
+	text-align: center;
+	position:absolute;
+}
+
+/*heading text for bg image*/
+.hero-text h1{
+	line-height:80px;
+	font-size: 50px;
+	font-weight:500;
+}
+
+/*para text for bg image*/
+.hero-text p{
+	line-height:40px;
+	font-size:15px;
+	font-weight:20px;
+    padding-bottom: 1.5rem;
+}
+
+.hero-btn {
+    
+    text-decoration: none;
+    color: #f6fafc;
+    background-color: NONE;
+    padding: 10px;
+}

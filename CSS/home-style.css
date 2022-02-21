@@ -8,6 +8,11 @@
 body{
 	min-height:100vh;
 }
+.logo{
+
+
+	font-family:'Courier New', Courier, monospace;
+}
 
 /*navigation bar*/
 .navbar{
@@ -110,6 +115,16 @@ nav ul li a{
 	text-decoration:none;
 	--opacity:0.5;
 }
+h1{
+	font-size: 30px;
+	font-style: Bahnschrift Light SemiCondensed;
+}
+h3{
+	font-size: 20px;
+}
+h2{
+	font-size: 40px;
+}
 
 .social a{
     padding-top: 7px;
@@ -119,7 +134,7 @@ nav ul li a{
 
 /*background image*/
 .hero-image{
-	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../IMG/uyyu.jpg");
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../IMG/homepg.jpg");
 	background-position:center;
 	background-repeat: no-repeat;
 	background-size:cover;
@@ -130,7 +145,7 @@ nav ul li a{
 }
 
 .hero-text{
-	color: #000;
+	color: #fff;
 	text-align: center;
 	position:absolute;
 }
