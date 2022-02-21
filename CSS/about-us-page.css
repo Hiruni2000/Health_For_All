@@ -33,7 +33,8 @@
 .hero-contant-left {
     max-width: 100rem;
     width: 50%;
-    float: left
+    float: left;
+	text-align: left;
 }
 
 .hero-contant-left h2{
