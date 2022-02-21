@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: "poppins",sans-serif;
+        }
+        body{
+            width:100%;
+            height:100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: azure;
+        }
+        body{
+            margin:0;
+            padding:0;
+            font-family:arial;
+        }
+        nav{
+            position: fixed;
+            top:0;
+            left:0;
+            width:100%;
+            height:100px;
+            padding:10px 90px;
+            box-sizing:border-box;
+            background: rgba(0,0,0,0.6);
+            border-bottom: 1px solid #fff;
+        }
+        nav .logo{
+            padding: 22px 20pf;
+            height:80px;
+            float: left;
+            font-size: 30px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color:#fff;
+        }
+        nav ul{
+            list-style: none;
+            float: right;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li a{
+            line-height:80px;
+            color:#fff;
+            padding: 12px 30px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        nav ul li a:hover{
+            background: rgba(0,0,0,0.7);
+            border-radius: 6px;
+
+        }
+        
+        .container {
+            width:750px;
+            height:500px;
+            border: 1px solid;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            padding: 40px;
+            justify-content: center;
+
+        }
+.container h1{
+    text-align:center;
+
+}
+.first-row{
+    display: flex;
+}
+.owner {
+    width: 100%;
+    
+    margin-right: 40px;
+
+}
+.input-field{
+    border: 1px solid #999;
+}
+.input-field input {
+    width:100px;
+    border:none;
+    outline:none;
+    padding :10px;
+}
+.selection{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.selection select{
+   padding:10px 20px;
+}
+a{
+    background-color:blueviolet;
+    color:white;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+a:hover{
+    background-color: dodgerblue;
+}
+.cards img{
+    width:100px;
+}
+    </style>
+    <meta charset="UTF-8">
+    
+    <title>GOOD HEALTH FOR ALL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        
+        <div class="logo">GOOD HEALTH FOR ALL</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Donation</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <h1> Donation </h1>
+        <br>
+        <div class="first-row">
+            <div class="owner">
+                <h3>Owner</h3>
+                <div class="input-field">
+                    <input type="text">
+
+                </div>
+            </div>
+            <div class="cvv">
+                <h3>CVV</h3>
+                <div class="input-field">
+                    <input type="Password">
+                </div>
+            </div>
+        </div>
+    
+    
+<div class="second-row">
+    <div class="Card-number">
+        <br>
+        <h3>Card Number</h3>
+        <div class="input-field">
+            <input type="text">
+        </div>
+    </div>
+</div>
+<div class="third-row">
+    <br>
+    <h3>Card Number</h3>
+    <div class="selection">
+        <div class="date">
+            <select name="months" id="months">
+                <option value="jan">Jan</option>
+                <option value="feb">Feb</option>
+                <option value="mar">Mar</option>
+                <option value="apr">Apr</option>
+                <option value="may">May</option>
+                <option value="jun">Jun</option>
+                <option value="jul">Jul</option>
+                <option value="aug">Aug</option>
+                <option value="sep">Sep</option>
+                <option value="oct">Oct</option>
+                <option value="nov">Nov</option>
+                <option value="Des">Des</option>
+
+            </select>
+            <select name="years" id="years">
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
+            </select>
+        </div>
+        <div class="cards">
+            <img src="100.jpg" alt="">
+            <img src="101.jpg" alt="">
+            <img src="102.jpg" alt="">
+
+        </div>
+    </div>
+</div>
+<br>
+<a href="">Confirm</a>
+</body>
+</html>
