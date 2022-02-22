@@ -133,7 +133,7 @@ h2{
 
 /*background image*/
 .hero-image{
-	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../IMG/homepg.jpg");
+	background-image:url("../IMG/homepg.jpg");
 	background-position:center;
 	background-repeat: no-repeat;
 	background-size:cover;
