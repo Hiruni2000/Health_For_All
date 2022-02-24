@@ -1,4 +1,4 @@
- <?php 
+<?php 
 
 $serverName = "localhost";
 $userName = "root";
@@ -60,13 +60,5 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['contact']) &
 } else {
   header("Location: index.php");
 }
-?> 
-
-
-<script src="include/JS/Sub.js"></script>
-
-
-
-
-  </body>
+ </body>
 </html>
