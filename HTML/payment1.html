@@ -104,7 +104,7 @@
 .selection select{
    padding:10px 20px;
 }
-a{
+a, button{
     background-color:rgb(123, 121, 124);
     color:rgb(179, 184, 185);
     text-align: center;
@@ -131,83 +131,74 @@ a:hover{
         
         <div class="logo">GOOD HEALTH FOR ALL</div>
         <ul>
-            <li><a href="home-page.html">Home</a></li>
-            <li><a href="about-us-page.html">About Us</a></li>
-            <li><a href="service-page.html">Service</a></li>
-            <li><a href="donate.html">Donation</a></li>
-            <li><a href="contact1.html">Contact us</a></li>
+            <li><a href="../HTML/home-page.html">Home</a></li>
+            <li><a href="../HTML/about-us-page.html">About Us</a></li>
+            <li><a href="../HTML/service-page.html">Service</a></li>
+            <li><a href="../HTML/donate.html">Donation</a></li>
+            <li><a href="../HTML/contact1.html">Contact us</a></li>
         </ul>
     </nav>
-    <form action="../PHP/donationdb.php" methode="post">
-    <div class="container">
-        <h1> Donation </h1>
-        <br>
-        <div class="first-row">
-            <div class="owner">
-                <h3>Owner</h3>
-                <div class="input-field">
-                    <input type="text">
+    <div class="contact-form-lr">
+        <div class="contact-form">
+<form action="../PHP/donationdb.php" method="POST">
+            <div class="container">
+                <h1> Donation </h1>
+                <br>
+                <div class="first-row">
+                    <div class="owner">
+                        <h3>Owner</h3>
+                        <div class="input-field">
+                            <input name="owner" type="text">
 
+                        </div>
+                    </div>
+                    <div class="cvv">
+                        <h3>CVV</h3>
+                        <div class="input-field">
+                            <input name="cvv" type="number" required>
+                        </div>
+                    </div>
+                </div>
+            
+            
+        <div class="second-row">
+            <div class="Card-number">
+                <br>
+                <h3>Card Number</h3>
+                <div class="input-field">
+                    <input name="card_number" type="number" required>
                 </div>
             </div>
-            <div class="cvv">
-                <h3>CVV</h3>
+        </div>
+
+        <div class="third-row">
+            <br>
+            <h3>Expiary Date</h3>
+            <input type="date" name="expiary_date" required>
+            
+                
+                <div class="cards">
+                    <img src="../IMG/100.jpg" alt="">
+                    <img src="../IMG/101.jpg" alt="">
+                    <img src="../IMG/102.jpg" alt="">
+
+                </div>
+        
+        </div>
+
+        <div class="fourth-row">
+            <div class="donation-amount">
+                
+                <h3>Donation Amount</h3>
                 <div class="input-field">
-                    <input type="Password">
+                    <input name="donation_amount" type="number" required>
                 </div>
             </div>
         </div>
-    
-    
-<div class="second-row">
-    <div class="Card-number">
         <br>
-        <h3>Card Number</h3>
-        <div class="input-field">
-            <input type="text">
-        </div>
-    </div>
-</div>
-<div class="third-row">
-    <br>
-    <h3>Card Number</h3>
-    <div class="selection">
-        <div class="date">
-            <select name="months" id="months">
-                <option value="jan">Jan</option>
-                <option value="feb">Feb</option>
-                <option value="mar">Mar</option>
-                <option value="apr">Apr</option>
-                <option value="may">May</option>
-                <option value="jun">Jun</option>
-                <option value="jul">Jul</option>
-                <option value="aug">Aug</option>
-                <option value="sep">Sep</option>
-                <option value="oct">Oct</option>
-                <option value="nov">Nov</option>
-                <option value="Des">Des</option>
-
-            </select>
-            <select name="years" id="years">
-                <option value="2022">2022</option>
-                <option value="2021">2021</option>
-                <option value="2020">2020</option>
-                <option value="2019">2019</option>
-                <option value="2018">2018</option>
-            </select>
-        </div>
-        <div class="cards">
-            <img src="../IMG/100.jpg" alt="">
-            <img src="../IMG/102.jpg" alt="">
-            <img src="../IMG/101.jpg" alt="">
-
-        </div>
-    </div>
-</div>
-
-<br>
-<a href="../HTML/thank.html">Confirm</a>
-</div>
+        <br>
+        <button type="submit"><a herf="../">Confirm</a></button>
+        
 </form>
 </body>
 </html>
